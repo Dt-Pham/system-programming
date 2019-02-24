@@ -25,6 +25,9 @@
 #include <errno.h>      /* Declares errno and defines error constants */
 #include <string.h>     /* Commonly used string-handling functions */
 
+#include "get_num.h"    /* Declares our functions for handling numeric
+                           arguments (getInt(), getLong()) */
+
 #include "error_functions.h"  /* Declares our error-handling functions */
 
 /* Unfortunately some UNIX implementations define FALSE and TRUE -

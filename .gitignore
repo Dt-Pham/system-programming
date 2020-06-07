@@ -53,3 +53,7 @@ dkms.conf
 
 # Vscode
 **/.vscode
+
+# Vim swap files
+.*sw?
+.sw?
